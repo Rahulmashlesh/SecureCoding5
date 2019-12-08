@@ -78,7 +78,7 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
- <!--   <receiver
+<!--   <receiver>
             android:name=".SMSReceiver"
             android:enabled="true"
             android:exported="true">
@@ -87,7 +87,9 @@
             </intent-filter>
         </receiver>
 -->
-        <activity android:name=".LoggingActivity"></activity>
+
+<!--    <activity android:name=".LoggingActivity"></activity>  -->
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
